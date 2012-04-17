@@ -1,3 +1,5 @@
 <Modules>
   <Module PersistentId="0B4CF77C-34DE-46C9-8D30-524316CC352E" ModuleId="dbSnap" />
+  <Module PersistentId="E05EE3DE-5B2E-4324-B209-850588B90FEC" ModuleId="Domain" />
+  <Module PersistentId="506852D9-5BE6-4C51-9D64-A9F1D4EF2238" ModuleId="Domain.Tests" />
 </Modules>

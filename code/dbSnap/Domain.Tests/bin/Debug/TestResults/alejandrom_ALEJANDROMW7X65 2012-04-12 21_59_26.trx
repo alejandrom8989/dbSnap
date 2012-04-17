@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9fd090d7-e520-4d91-91a2-fe372261a974" name="alejandrom@ALEJANDROMW7X65 2012-04-12 21:59:26" runUser="USCORP\alejandrom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="d500a747-f8ae-45b0-88fd-1ff87a8c7203">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="alejandrom_ALEJANDROMW7X65 2012-04-12 21_59_26" />
+  </TestSettings>
+  <Times creation="2012-04-12T21:59:26.0251132-04:00" queuing="2012-04-12T21:59:26.2973308-04:00" start="2012-04-12T21:59:26.4764740-04:00" finish="2012-04-12T21:59:27.0209092-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldDeleteSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="8f77047f-e206-f04b-d301-8d4e5639200c">
+      <Execution timeOut="1800000" id="a9798979-b875-4f92-875f-162938130341" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldDeleteSnapshots" />
+    </UnitTest>
+    <UnitTest name="ShouldGetAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="2994c140-65cd-d555-dc40-58fadedd50dc">
+      <Execution timeOut="1800000" id="4fe084da-786b-48fb-b50c-3debc24b0009" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldGetAllSnapshots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8f77047f-e206-f04b-d301-8d4e5639200c" executionId="a9798979-b875-4f92-875f-162938130341" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2994c140-65cd-d555-dc40-58fadedd50dc" executionId="4fe084da-786b-48fb-b50c-3debc24b0009" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a9798979-b875-4f92-875f-162938130341" testId="8f77047f-e206-f04b-d301-8d4e5639200c" testName="ShouldDeleteSnapshots" computerName="ALEJANDROMW7X65" duration="00:00:00.3099687" startTime="2012-04-12T21:59:26.5725508-04:00" endTime="2012-04-12T21:59:26.9498524-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9798979-b875-4f92-875f-162938130341">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. There should be one less snapshot after deletion.</Message>
+          <StackTrace>   at Domain.Tests.SnapshotServiceTest.ShouldDeleteSnapshots() in C:\Projects\dbSnap\code\dbSnap\Domain.Tests\SnapshotServiceTest.cs:line 46
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4fe084da-786b-48fb-b50c-3debc24b0009" testId="2994c140-65cd-d555-dc40-58fadedd50dc" testName="ShouldGetAllSnapshots" computerName="ALEJANDROMW7X65" duration="00:00:00.0032138" startTime="2012-04-12T21:59:26.9518540-04:00" endTime="2012-04-12T21:59:26.9638636-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fe084da-786b-48fb-b50c-3debc24b0009">
+    </UnitTestResult>
+  </Results>
+</TestRun>

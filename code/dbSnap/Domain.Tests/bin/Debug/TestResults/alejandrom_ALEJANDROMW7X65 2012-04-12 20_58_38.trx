@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="23c5b940-afc7-40be-af4f-0f379ef0aa5c" name="alejandrom@ALEJANDROMW7X65 2012-04-12 20:58:38" runUser="USCORP\alejandrom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="dad81b09-3179-4505-8e60-60b4b57efbd2">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="alejandrom_ALEJANDROMW7X65 2012-04-12 20_58_38" />
+  </TestSettings>
+  <Times creation="2012-04-12T20:58:38.3634576-04:00" queuing="2012-04-12T20:58:38.6266417-04:00" start="2012-04-12T20:58:38.7897558-04:00" finish="2012-04-12T20:58:39.3611555-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldGetAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="2994c140-65cd-d555-dc40-58fadedd50dc">
+      <Execution timeOut="1800000" id="cf4dc1d3-b783-4d1b-85fc-7001ab1b3203" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldGetAllSnapshots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2994c140-65cd-d555-dc40-58fadedd50dc" executionId="cf4dc1d3-b783-4d1b-85fc-7001ab1b3203" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cf4dc1d3-b783-4d1b-85fc-7001ab1b3203" testId="2994c140-65cd-d555-dc40-58fadedd50dc" testName="ShouldGetAllSnapshots" computerName="ALEJANDROMW7X65" duration="00:00:00.3462441" startTime="2012-04-12T20:58:38.8958300-04:00" endTime="2012-04-12T20:58:39.2941086-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf4dc1d3-b783-4d1b-85fc-7001ab1b3203">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1 (System.Int32)&gt;. Actual:&lt;System.Linq.Enumerable+WhereListIterator`1[Domain.DomainInterfaces.ISnapshot] (System.Linq.Enumerable+WhereListIterator`1[[Domain.DomainInterfaces.ISnapshot, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]])&gt;. There should be a snapshot called first</Message>
+          <StackTrace>   at Domain.Tests.SnapshotServiceTest.ShouldGetAllSnapshots() in C:\Projects\dbSnap\code\dbSnap\Domain.Tests\SnapshotServiceTest.cs:line 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
