@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="02cd5147-d488-427e-8bce-e904fbb2fbf6" name="alejandrom@ALEJANDROMW7X65 2012-04-12 22:00:37" runUser="USCORP\alejandrom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="1bd8c86d-cd98-4fbd-98b5-66ce0a0bc502">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="alejandrom_ALEJANDROMW7X65 2012-04-12 22_00_37" />
+  </TestSettings>
+  <Times creation="2012-04-12T22:00:37.1319532-04:00" queuing="2012-04-12T22:00:37.4021692-04:00" start="2012-04-12T22:00:37.5813124-04:00" finish="2012-04-12T22:00:38.1187420-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldDeleteSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="8f77047f-e206-f04b-d301-8d4e5639200c">
+      <Execution timeOut="1800000" id="0669e1d1-06f0-4f42-b6f5-bfb711c8200c" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldDeleteSnapshots" />
+    </UnitTest>
+    <UnitTest name="ShouldGetAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="2994c140-65cd-d555-dc40-58fadedd50dc">
+      <Execution timeOut="1800000" id="3a58cf21-f116-4ddb-b260-874bac2432f6" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldGetAllSnapshots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8f77047f-e206-f04b-d301-8d4e5639200c" executionId="0669e1d1-06f0-4f42-b6f5-bfb711c8200c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2994c140-65cd-d555-dc40-58fadedd50dc" executionId="3a58cf21-f116-4ddb-b260-874bac2432f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0669e1d1-06f0-4f42-b6f5-bfb711c8200c" testId="8f77047f-e206-f04b-d301-8d4e5639200c" testName="ShouldDeleteSnapshots" computerName="ALEJANDROMW7X65" duration="00:00:00.3135782" startTime="2012-04-12T22:00:37.6914004-04:00" endTime="2012-04-12T22:00:38.0526892-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0669e1d1-06f0-4f42-b6f5-bfb711c8200c">
+    </UnitTestResult>
+    <UnitTestResult executionId="3a58cf21-f116-4ddb-b260-874bac2432f6" testId="2994c140-65cd-d555-dc40-58fadedd50dc" testName="ShouldGetAllSnapshots" computerName="ALEJANDROMW7X65" duration="00:00:00.0027440" startTime="2012-04-12T22:00:38.0546908-04:00" endTime="2012-04-12T22:00:38.0586940-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a58cf21-f116-4ddb-b260-874bac2432f6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

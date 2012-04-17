@@ -1,0 +1,5 @@
+C:\Projects\dbSnap\code\dbSnap\dbSnap\bin\Debug\dbSnap.exe
+C:\Projects\dbSnap\code\dbSnap\dbSnap\bin\Debug\dbSnap.pdb
+C:\Projects\dbSnap\code\dbSnap\dbSnap\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\dbSnap\code\dbSnap\dbSnap\obj\x86\Debug\dbSnap.exe
+C:\Projects\dbSnap\code\dbSnap\dbSnap\obj\x86\Debug\dbSnap.pdb

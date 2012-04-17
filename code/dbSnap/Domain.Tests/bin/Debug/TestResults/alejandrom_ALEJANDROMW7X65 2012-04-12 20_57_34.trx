@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d54c1f1f-1cc6-4d09-b730-019d3b914429" name="alejandrom@ALEJANDROMW7X65 2012-04-12 20:57:34" runUser="USCORP\alejandrom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="1d9d9440-6c4c-4a20-963a-7778c862cde8">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="alejandrom_ALEJANDROMW7X65 2012-04-12 20_57_34" />
+  </TestSettings>
+  <Times creation="2012-04-12T20:57:34.9380909-04:00" queuing="2012-04-12T20:57:35.2383009-04:00" start="2012-04-12T20:57:35.4154248-04:00" finish="2012-04-12T20:57:35.9608063-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldGetAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="2994c140-65cd-d555-dc40-58fadedd50dc">
+      <Execution timeOut="1800000" id="ac9cbf61-bd0e-48ea-83a5-b8e086e00e2f" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldGetAllSnapshots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2994c140-65cd-d555-dc40-58fadedd50dc" executionId="ac9cbf61-bd0e-48ea-83a5-b8e086e00e2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ac9cbf61-bd0e-48ea-83a5-b8e086e00e2f" testId="2994c140-65cd-d555-dc40-58fadedd50dc" testName="ShouldGetAllSnapshots" computerName="ALEJANDROMW7X65" duration="00:00:00.3258740" startTime="2012-04-12T20:57:35.5275032-04:00" endTime="2012-04-12T20:57:35.9017650-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac9cbf61-bd0e-48ea-83a5-b8e086e00e2f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Domain.Tests.SnapshotServiceTest.ShouldGetAllSnapshots threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Domain.Tests.SnapshotServiceTest.ShouldGetAllSnapshots() in C:\Projects\dbSnap\code\dbSnap\Domain.Tests\SnapshotServiceTest.cs:line 32
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
