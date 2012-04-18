@@ -40,8 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseService.cs" />
+    <Compile Include="DomainInterfaces\IDatabase.cs" />
     <Compile Include="DomainInterfaces\ISnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryInterfaces\IDatabaseRepository.cs" />
     <Compile Include="RepositoryInterfaces\ISnapshotRepository.cs" />
     <Compile Include="SnapshotService.cs" />
   </ItemGroup>

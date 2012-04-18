@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SnapshotServiceTest.cs" />
   </ItemGroup>

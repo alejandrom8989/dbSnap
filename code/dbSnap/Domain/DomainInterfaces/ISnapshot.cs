@@ -16,9 +16,8 @@ namespace Domain.DomainInterfaces
     /// </summary>
     public interface ISnapshot
     {
-        string Name
-        {
-            get;
-        }
+        string Name { get; }
+
+        string SourceDatabase { get; }
     }
 }
