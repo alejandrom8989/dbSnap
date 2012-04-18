@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1fd28e48-1775-485a-a7ee-9f79b8c61b4f" name="alejandrom@ALEJANDROMW7X99 2012-04-18 10:17:21" runUser="USCORP\alejandrom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="7197aee1-d2c9-4210-a8d0-51a7cfb435f2">
+    <Deployment runDeploymentRoot="alejandrom_ALEJANDROMW7X99 2012-04-18 10_17_21">
+      <DeploymentItem filename="C:\Projects\dbSnap\code\Moq.4.0.10827\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Projects\dbSnap\code\dbSnap\Domain\bin\Debug\Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T10:17:21.0665774-04:00" queuing="2012-04-18T10:17:22.2826990-04:00" start="2012-04-18T10:17:22.3697077-04:00" finish="2012-04-18T10:17:24.4059113-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldDeleteSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="8f77047f-e206-f04b-d301-8d4e5639200c">
+      <Execution id="d932bb55-7e08-4ddd-bf40-933f40bd79c2" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldDeleteSnapshots" />
+    </UnitTest>
+    <UnitTest name="ShouldGetDatabases" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="91584592-7526-4c10-eb1b-3cb2b6b7083f">
+      <Execution id="25633841-d657-47d1-bff5-df8781b4256c" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.DatabaseServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldGetDatabases" />
+    </UnitTest>
+    <UnitTest name="ShouldRetrieveAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\dataaccess.tests\bin\debug\dataaccess.tests.dll" id="9f940f59-b826-358f-b423-f58f4a322845">
+      <Execution id="7c5bcdf0-fc71-4734-927f-2d1c833fa7bd" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/DataAccess.Tests/bin/Debug/DataAccess.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DataAccess.Tests.SqlSnapshotRepositoryTest, DataAccess.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldRetrieveAllSnapshots" />
+    </UnitTest>
+    <UnitTest name="ShouldGetAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="2994c140-65cd-d555-dc40-58fadedd50dc">
+      <Execution id="9fdbcc95-ae85-4d49-aae3-dc1ae89903cc" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldGetAllSnapshots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2994c140-65cd-d555-dc40-58fadedd50dc" executionId="9fdbcc95-ae85-4d49-aae3-dc1ae89903cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f77047f-e206-f04b-d301-8d4e5639200c" executionId="d932bb55-7e08-4ddd-bf40-933f40bd79c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91584592-7526-4c10-eb1b-3cb2b6b7083f" executionId="25633841-d657-47d1-bff5-df8781b4256c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f940f59-b826-358f-b423-f58f4a322845" executionId="7c5bcdf0-fc71-4734-927f-2d1c833fa7bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9fdbcc95-ae85-4d49-aae3-dc1ae89903cc" testId="2994c140-65cd-d555-dc40-58fadedd50dc" testName="ShouldGetAllSnapshots" computerName="ALEJANDROMW7X99" duration="00:00:00.1772151" startTime="2012-04-18T10:17:22.3947102-04:00" endTime="2012-04-18T10:17:23.5138221-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fdbcc95-ae85-4d49-aae3-dc1ae89903cc">
+    </UnitTestResult>
+    <UnitTestResult executionId="d932bb55-7e08-4ddd-bf40-933f40bd79c2" testId="8f77047f-e206-f04b-d301-8d4e5639200c" testName="ShouldDeleteSnapshots" computerName="ALEJANDROMW7X99" duration="00:00:00.0126619" startTime="2012-04-18T10:17:23.5168224-04:00" endTime="2012-04-18T10:17:23.5318239-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d932bb55-7e08-4ddd-bf40-933f40bd79c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="25633841-d657-47d1-bff5-df8781b4256c" testId="91584592-7526-4c10-eb1b-3cb2b6b7083f" testName="ShouldGetDatabases" computerName="ALEJANDROMW7X99" duration="00:00:00.0160168" startTime="2012-04-18T10:17:23.5358243-04:00" endTime="2012-04-18T10:17:23.5548262-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25633841-d657-47d1-bff5-df8781b4256c">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c5bcdf0-fc71-4734-927f-2d1c833fa7bd" testId="9f940f59-b826-358f-b423-f58f4a322845" testName="ShouldRetrieveAllSnapshots" computerName="ALEJANDROMW7X99" duration="00:00:00.0070069" startTime="2012-04-18T10:17:23.5578265-04:00" endTime="2012-04-18T10:17:24.2959003-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c5bcdf0-fc71-4734-927f-2d1c833fa7bd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

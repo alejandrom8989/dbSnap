@@ -1,0 +1,7 @@
+C:\Projects\dbSnap\code\dbSnap\DataAccess\bin\Debug\DataAccess.dll
+C:\Projects\dbSnap\code\dbSnap\DataAccess\bin\Debug\DataAccess.pdb
+C:\Projects\dbSnap\code\dbSnap\DataAccess\bin\Debug\Domain.dll
+C:\Projects\dbSnap\code\dbSnap\DataAccess\bin\Debug\Domain.pdb
+C:\Projects\dbSnap\code\dbSnap\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\dbSnap\code\dbSnap\DataAccess\obj\Debug\DataAccess.dll
+C:\Projects\dbSnap\code\dbSnap\DataAccess\obj\Debug\DataAccess.pdb

@@ -1,0 +1,47 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/d:RepositoryInterfaces/f:ISnapshotRepository.cs" caret="446" fromTop="17" />
+    <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/f:SnapshotService.cs" caret="12" fromTop="0" />
+    <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/d:DomainInterfaces/f:ISnapshot.cs" caret="584" fromTop="22" />
+    <File id="0B4CF77C-34DE-46C9-8D30-524316CC352E/f:Program.cs" caret="212" fromTop="13" />
+    <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/f:DatabaseService.cs" caret="638" fromTop="19" />
+    <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/d:RepositoryInterfaces/f:IDatabaseRepository.cs" caret="0" fromTop="0" />
+    <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:DatabaseServiceTest.cs" caret="295" fromTop="12" />
+    <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="350" fromTop="16" />
+    <File id="9BDD1639-B45C-43C6-8715-F3B6E61ACC18/f:SqlSnapshotRepository.cs" caret="752" fromTop="25" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/f:App.config" caret="163" fromTop="3" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="1515" fromTop="16" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="1152" fromTop="31" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/f:App.config" caret="201" fromTop="6" />
+    <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="90" fromTop="4" />
+    <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:DatabaseServiceTest.cs" caret="323" fromTop="17" />
+    <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:DatabaseServiceTest.cs" caret="68" fromTop="2" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="168" fromTop="4" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/f:App.config" caret="160" fromTop="3" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="589" fromTop="19" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="589" fromTop="28" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="300" fromTop="4" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="608" fromTop="14" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="2705" fromTop="21" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="3312" fromTop="39" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="729" fromTop="20" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="1493" fromTop="31" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="1225" fromTop="28" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="3535" fromTop="42" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="3602" fromTop="44" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="3717" fromTop="48" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="3312" fromTop="20" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="2703" fromTop="18" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="2705" fromTop="24" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="2226" fromTop="12" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="2500" fromTop="16" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="2817" fromTop="24" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="2098" fromTop="19" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="2098" fromTop="21" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="2082" fromTop="18" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="1625" fromTop="20" />
+    <File id="68406508-8FB5-4C2D-B519-5863A5027ADB/d:IntegrationTests/f:SqlSnapshotRepositoryTest.cs" caret="1638" fromTop="20" />
+  </RecentEdits>
+</RecentFiles>

@@ -1,0 +1,137 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/d:RepositoryInterfaces/f:ISnapshotRepository.cs" caret="446" fromTop="17" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/f:SnapshotService.cs" caret="12" fromTop="0" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/d:DomainInterfaces/f:ISnapshot.cs" caret="584" fromTop="22" />
+      <File id="0B4CF77C-34DE-46C9-8D30-524316CC352E/f:Program.cs" caret="212" fromTop="13" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="1865" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0B4CF77C-34DE-46C9-8D30-524316CC352E/f:Program.cs" caret="212" fromTop="13" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/f:SnapshotService.cs" caret="0" fromTop="0" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/d:RepositoryInterfaces/f:ISnapshotRepository.cs" caret="0" fromTop="0" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/f:SnapshotService.cs" caret="125" fromTop="4" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/d:DomainInterfaces/f:ISnapshot.cs" caret="563" fromTop="19" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="406" fromTop="7" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="2488" fromTop="32" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="2733" fromTop="35" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="455" fromTop="6" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/d:RepositoryInterfaces/f:ISnapshotRepository.cs" caret="446" fromTop="17" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/f:SnapshotService.cs" caret="701" fromTop="22" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/f:SnapshotService.cs" caret="1122" fromTop="23" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/f:SnapshotService.cs" caret="1320" fromTop="30" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="1941" fromTop="27" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="1315" fromTop="19" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="1761" fromTop="26" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="2141" fromTop="30" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="1034" fromTop="11" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="283" fromTop="3" />
+      <File id="E05EE3DE-5B2E-4324-B209-850588B90FEC/f:SnapshotService.cs" caret="1470" fromTop="35" />
+      <File id="506852D9-5BE6-4C51-9D64-A9F1D4EF2238/f:SnapshotServiceTest.cs" caret="2452" fromTop="25" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False" />
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="SnapshotServiceTest`0" priority="1" />
+      <Item value="var" priority="9" />
+      <Item value="new" priority="4" />
+      <Item value="snapshotRepository" priority="7" />
+      <Item value="service" priority="3" />
+      <Item value="public" priority="3" />
+      <Item value="SnapshotService`0" priority="3" />
+      <Item value="if" priority="0" />
+      <Item value="thr" priority="0" />
+      <Item value="ArgumentNullException" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="SnapshotRepository`0" priority="0" />
+      <Item value="repository" priority="2" />
+      <Item value="IList" priority="3" />
+      <Item value="string" priority="1" />
+      <Item value="List" priority="0" />
+      <Item value="snapshots" priority="7" />
+      <Item value="Mock`0" priority="0" />
+      <Item value="ISnapshot`0" priority="5" />
+      <Item value="shot" priority="3" />
+      <Item value="firstShot" priority="1" />
+      <Item value="secondShot" priority="0" />
+      <Item value="rep" priority="1" />
+      <Item value="snapShots" priority="6" />
+      <Item value="Assert`0" priority="3" />
+      <Item value="return" priority="1" />
+      <Item value="null" priority="0" />
+      <Item value="TestMethod" priority="0" />
+      <Item value="void" priority="4" />
+      <Item value="private" priority="0" />
+      <Item value="GetTestSnapshots`0" priority="1" />
+      <Item value="snapshot" priority="2" />
+      <Item value="It`0" priority="1" />
+      <Item value="Action" priority="0" />
+      <Item value="initialSnapshotsCount" priority="0" />
+      <Item value="nameToDelete" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="SetupProperty`1" priority="0" />
+      <Item value="Object" priority="3" />
+      <Item value="Setup`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.DomainInterfaces.ISnapshot">
+      <Item value="Name" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`16" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.RepositoryInterfaces.ISnapshotRepository">
+      <Item value="GetSnapshots`0" priority="1" />
+      <Item value="Delete`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="AreEqual`0" priority="4" />
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="1" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Where`1" priority="1" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="First`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Concat`1" priority="0" />
+      <Item value="Count`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.It">
+      <Item value="IsAny`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`1">
+      <Item value="Callback`16" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.SnapshotService">
+      <Item value="DeleteSnapshot`0" priority="0" />
+      <Item value="GetSnapshots`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

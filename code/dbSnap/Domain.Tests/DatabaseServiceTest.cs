@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Gallio.Framework;
-using MbUnit.Framework;
-using MbUnit.Framework.ContractVerifiers;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
 namespace Domain.Tests
@@ -11,10 +9,10 @@ namespace Domain.Tests
     using Domain.DomainInterfaces;
     using Domain.RepositoryInterfaces;
 
-    [TestFixture]
+    [TestClass]
     public class DatabaseServiceTest
     {
-        [Test]
+        [TestMethod]
         public void ShouldGetDatabases()
         {
             var repositoryMock = new Mock<IDatabaseRepository>();

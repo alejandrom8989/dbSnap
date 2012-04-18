@@ -1,0 +1,6 @@
+C:\Projects\dbSnap\code\dbSnap\DataAccess.Tests\bin\Debug\DataAccess.Tests.dll.config
+C:\Projects\dbSnap\code\dbSnap\DataAccess.Tests\bin\Debug\DataAccess.Tests.dll
+C:\Projects\dbSnap\code\dbSnap\DataAccess.Tests\bin\Debug\DataAccess.Tests.pdb
+C:\Projects\dbSnap\code\dbSnap\DataAccess.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\dbSnap\code\dbSnap\DataAccess.Tests\obj\Debug\DataAccess.Tests.dll
+C:\Projects\dbSnap\code\dbSnap\DataAccess.Tests\obj\Debug\DataAccess.Tests.pdb
