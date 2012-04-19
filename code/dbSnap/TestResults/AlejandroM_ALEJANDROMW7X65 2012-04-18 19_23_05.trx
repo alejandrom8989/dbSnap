@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d4e2d5ec-c0ff-4902-9b50-0428ccbac2e2" name="AlejandroM@ALEJANDROMW7X65 2012-04-18 19:23:05" runUser="USCORP\AlejandroM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="072ea1c0-b831-4eb1-b950-526a875193d1">
+    <Deployment userDeploymentRoot="C:\Projects\dbSnap\code\dbSnap\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="AlejandroM_ALEJANDROMW7X65 2012-04-18 19_23_05">
+      <DeploymentItem filename="C:\Projects\dbSnap\code\dbSnap\Domain\bin\Debug\Domain.dll" />
+      <DeploymentItem filename="C:\Projects\dbSnap\code\dbSnap\DataAccess\bin\Debug\DataAccess.dll" />
+      <DeploymentItem filename="C:\Projects\dbSnap\code\Moq.4.0.10827\NET40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T19:23:05.1398684-04:00" queuing="2012-04-18T19:23:05.2569503-04:00" start="2012-04-18T19:23:05.2629545-04:00" finish="2012-04-18T19:23:05.7042632-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldRetrieveAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\dataaccess.tests\bin\debug\dataaccess.tests.dll" id="ea5c5d7d-e227-c708-4d4a-85d6263cc4d4">
+      <Execution id="671e646e-df4c-4d32-b2d5-71965f432751" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/DataAccess.Tests/bin/Debug/DataAccess.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DataAccess.Tests.IntegrationTests.SqlSnapshotRepositoryTest, DataAccess.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldRetrieveAllSnapshots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ea5c5d7d-e227-c708-4d4a-85d6263cc4d4" executionId="671e646e-df4c-4d32-b2d5-71965f432751" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="671e646e-df4c-4d32-b2d5-71965f432751" testId="ea5c5d7d-e227-c708-4d4a-85d6263cc4d4" testName="ShouldRetrieveAllSnapshots" computerName="ALEJANDROMW7X65" duration="00:00:00.0238773" startTime="2012-04-18T19:23:05.2649559-04:00" endTime="2012-04-18T19:23:05.6932555-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="671e646e-df4c-4d32-b2d5-71965f432751">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DataAccess.Tests.IntegrationTests.SqlSnapshotRepositoryTest.ShouldRetrieveAllSnapshots threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DataAccess.SqlSnapshotRepository.GetSnapshots() in C:\Projects\dbSnap\code\dbSnap\DataAccess\SqlSnapshotRepository.cs:line 28
+   at DataAccess.Tests.IntegrationTests.SqlSnapshotRepositoryTest.ShouldRetrieveAllSnapshots() in C:\Projects\dbSnap\code\dbSnap\DataAccess.Tests\IntegrationTests\SqlSnapshotRepositoryTest.cs:line 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

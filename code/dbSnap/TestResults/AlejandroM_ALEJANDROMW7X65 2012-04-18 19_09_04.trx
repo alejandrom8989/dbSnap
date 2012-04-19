@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="067b4b53-6788-4784-b5f5-19e9a076339a" name="AlejandroM@ALEJANDROMW7X65 2012-04-18 19:09:04" runUser="USCORP\AlejandroM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="43d41e40-cd58-476b-bc81-fd3a6f2d7ba9">
+    <Deployment runDeploymentRoot="AlejandroM_ALEJANDROMW7X65 2012-04-18 19_09_04">
+      <DeploymentItem filename="C:\Projects\dbSnap\code\Moq.4.0.10827\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Projects\dbSnap\code\dbSnap\Domain\bin\Debug\Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T19:09:04.9831701-04:00" queuing="2012-04-18T19:09:05.8507770-04:00" start="2012-04-18T19:09:05.8978099-04:00" finish="2012-04-18T19:09:07.2467535-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldGetDatabases" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="91584592-7526-4c10-eb1b-3cb2b6b7083f">
+      <Execution id="3de5d3a4-3463-405c-ab11-26b6e49aa870" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.DatabaseServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldGetDatabases" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="91584592-7526-4c10-eb1b-3cb2b6b7083f" executionId="3de5d3a4-3463-405c-ab11-26b6e49aa870" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3de5d3a4-3463-405c-ab11-26b6e49aa870" testId="91584592-7526-4c10-eb1b-3cb2b6b7083f" testName="ShouldGetDatabases" computerName="ALEJANDROMW7X65" duration="00:00:00.1925637" startTime="2012-04-18T19:09:05.9308330-04:00" endTime="2012-04-18T19:09:07.2047241-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3de5d3a4-3463-405c-ab11-26b6e49aa870">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="465f88ec-3e27-449b-b753-3e491df72400" name="AlejandroM@ALEJANDROMW7X65 2012-04-18 19:10:57" runUser="USCORP\AlejandroM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="072ea1c0-b831-4eb1-b950-526a875193d1">
+    <Deployment runDeploymentRoot="AlejandroM_ALEJANDROMW7X65 2012-04-18 19_10_57">
+      <DeploymentItem filename="C:\Projects\dbSnap\code\dbSnap\Domain\bin\Debug\Domain.dll" />
+      <DeploymentItem filename="C:\Projects\dbSnap\code\dbSnap\DataAccess\bin\Debug\DataAccess.dll" />
+      <DeploymentItem filename="C:\Projects\dbSnap\code\Moq.4.0.10827\NET40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T19:10:57.7330398-04:00" queuing="2012-04-18T19:10:57.9682043-04:00" start="2012-04-18T19:10:57.9732078-04:00" finish="2012-04-18T19:10:58.5335998-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="4" passed="3" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldDeleteSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="8f77047f-e206-f04b-d301-8d4e5639200c">
+      <Execution id="e7a9854f-acf7-4f0d-ae33-c2f04ccf2a45" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldDeleteSnapshots" />
+    </UnitTest>
+    <UnitTest name="ShouldGetDatabases" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="91584592-7526-4c10-eb1b-3cb2b6b7083f">
+      <Execution id="314c5801-9c64-4c01-b38d-fc68d7bd0031" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.DatabaseServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldGetDatabases" />
+    </UnitTest>
+    <UnitTest name="ShouldGetAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\domain.tests\bin\debug\domain.tests.dll" id="2994c140-65cd-d555-dc40-58fadedd50dc">
+      <Execution id="691fd00a-0cb7-4793-a9d8-ba48a5502c37" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.SnapshotServiceTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldGetAllSnapshots" />
+    </UnitTest>
+    <UnitTest name="ShouldRetrieveAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\dataaccess.tests\bin\debug\dataaccess.tests.dll" id="ea5c5d7d-e227-c708-4d4a-85d6263cc4d4">
+      <Execution id="2af05322-3d09-4b10-9c23-0337d2d1eb22" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/DataAccess.Tests/bin/Debug/DataAccess.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DataAccess.Tests.IntegrationTests.SqlSnapshotRepositoryTest, DataAccess.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldRetrieveAllSnapshots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2994c140-65cd-d555-dc40-58fadedd50dc" executionId="691fd00a-0cb7-4793-a9d8-ba48a5502c37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f77047f-e206-f04b-d301-8d4e5639200c" executionId="e7a9854f-acf7-4f0d-ae33-c2f04ccf2a45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91584592-7526-4c10-eb1b-3cb2b6b7083f" executionId="314c5801-9c64-4c01-b38d-fc68d7bd0031" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea5c5d7d-e227-c708-4d4a-85d6263cc4d4" executionId="2af05322-3d09-4b10-9c23-0337d2d1eb22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="691fd00a-0cb7-4793-a9d8-ba48a5502c37" testId="2994c140-65cd-d555-dc40-58fadedd50dc" testName="ShouldGetAllSnapshots" computerName="ALEJANDROMW7X65" duration="00:00:00.1568633" startTime="2012-04-18T19:10:57.9742085-04:00" endTime="2012-04-18T19:10:58.2984353-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="691fd00a-0cb7-4793-a9d8-ba48a5502c37">
+    </UnitTestResult>
+    <UnitTestResult executionId="e7a9854f-acf7-4f0d-ae33-c2f04ccf2a45" testId="8f77047f-e206-f04b-d301-8d4e5639200c" testName="ShouldDeleteSnapshots" computerName="ALEJANDROMW7X65" duration="00:00:00.0145257" startTime="2012-04-18T19:10:58.2994360-04:00" endTime="2012-04-18T19:10:58.3154472-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7a9854f-acf7-4f0d-ae33-c2f04ccf2a45">
+    </UnitTestResult>
+    <UnitTestResult executionId="314c5801-9c64-4c01-b38d-fc68d7bd0031" testId="91584592-7526-4c10-eb1b-3cb2b6b7083f" testName="ShouldGetDatabases" computerName="ALEJANDROMW7X65" duration="00:00:00.0113791" startTime="2012-04-18T19:10:58.3164479-04:00" endTime="2012-04-18T19:10:58.3304577-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="314c5801-9c64-4c01-b38d-fc68d7bd0031">
+    </UnitTestResult>
+    <UnitTestResult executionId="2af05322-3d09-4b10-9c23-0337d2d1eb22" testId="ea5c5d7d-e227-c708-4d4a-85d6263cc4d4" testName="ShouldRetrieveAllSnapshots" computerName="ALEJANDROMW7X65" startTime="2012-04-18T19:10:58.3314584-04:00" endTime="2012-04-18T19:10:58.4875676-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2af05322-3d09-4b10-9c23-0337d2d1eb22">
+      <Output>
+        <ErrorInfo>
+          <Message>Method DataAccess.Tests.IntegrationTests.SqlSnapshotRepositoryTest.ClassCleanup has wrong signature.  The method should be marked static.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bede127a-b961-4394-996a-ca1883dff5f5" name="AlejandroM@ALEJANDROMW7X65 2012-04-18 19:01:32" runUser="USCORP\AlejandroM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="9bdf1588-133f-4d9a-beba-b58b29381dff">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="AlejandroM_ALEJANDROMW7X65 2012-04-18 19_01_32" />
+  </TestSettings>
+  <Times creation="2012-04-18T19:01:32.5246707-04:00" queuing="2012-04-18T19:01:32.7738450-04:00" start="2012-04-18T19:01:32.9389605-04:00" finish="2012-04-18T19:01:33.1481068-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldRetrieveAllSnapshots" storage="c:\projects\dbsnap\code\dbsnap\dataaccess.tests\bin\debug\dataaccess.tests.dll" id="ea5c5d7d-e227-c708-4d4a-85d6263cc4d4">
+      <Execution timeOut="1800000" id="2b454a90-89e1-4f4e-bb3e-d293ce262a0c" />
+      <TestMethod codeBase="C:/Projects/dbSnap/code/dbSnap/DataAccess.Tests/bin/Debug/DataAccess.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DataAccess.Tests.IntegrationTests.SqlSnapshotRepositoryTest, DataAccess.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldRetrieveAllSnapshots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ea5c5d7d-e227-c708-4d4a-85d6263cc4d4" executionId="2b454a90-89e1-4f4e-bb3e-d293ce262a0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2b454a90-89e1-4f4e-bb3e-d293ce262a0c" testId="ea5c5d7d-e227-c708-4d4a-85d6263cc4d4" testName="ShouldRetrieveAllSnapshots" computerName="ALEJANDROMW7X65" startTime="2012-04-18T19:01:33.0450347-04:00" endTime="2012-04-18T19:01:33.0870641-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b454a90-89e1-4f4e-bb3e-d293ce262a0c">
+      <Output>
+        <ErrorInfo>
+          <Message>Method DataAccess.Tests.IntegrationTests.SqlSnapshotRepositoryTest.ClassCleanup has wrong signature.  The method should be marked static.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

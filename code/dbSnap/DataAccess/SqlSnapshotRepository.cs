@@ -25,6 +25,7 @@
 
         public IList<ISnapshot> GetSnapshots()
         {
+            // TODO write this. the test for this method is already written. It uses a lot of sql stuff, so perhaps have a look...
             throw new NotImplementedException();
         }
 
